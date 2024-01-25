@@ -43,6 +43,7 @@ main {
     line-height: 1.4;
     max-width: 600px;
     margin-bottom: 15px;
+    color: #4A4A4A;
 }
 
 .hero-content p {
@@ -51,6 +52,7 @@ main {
     max-width: 610px;
     text-align: start;
     margin-bottom: 32px;
+    color: #454545;
 }
 
 .content-head {
