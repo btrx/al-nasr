@@ -117,6 +117,8 @@ main {
     line-height: 4;
     border: 1;
     border-color: #FFC265;
+    border-style: solid;
+    box-shadow: none;
     padding: 0px 48px;
     border-radius: 10px;
     font-size: large;
