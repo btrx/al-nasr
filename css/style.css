@@ -30,8 +30,11 @@ nav img {
 }
 
 main {
-    display: flex;
     margin: 0px 100px;
+}
+
+.hero {
+    display: flex;
 }
 
 .hero-content {
@@ -55,7 +58,7 @@ main {
     color: #454545;
 }
 
-.content-head {
+.hero-content .content-head {
     background-color: #C1FFFA;
     color: #1DA599;
     width: fit-content;
@@ -63,4 +66,58 @@ main {
     padding: 0px 40px;
     border-radius: 20px;
     margin-bottom: 35px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    margin: 100px 0px;
+    gap: 0px 54px;
+}
+
+.about-image {
+    max-height: 650px;
+}
+
+.about-content h2{
+    font-size: 52px;
+    line-height: 1.25;
+    max-width: 600px;
+    margin-bottom: 15px;
+    color: #4A4A4A;
+}
+
+.about-content p {
+    font-size: 24px;
+    line-height: 1.4;
+    max-width: 610px;
+    text-align: start;
+    color: #454545;
+}
+
+.about-list {
+    margin: 40px 0px;
+}
+
+.about-content .list-content {
+    display: flex;
+    gap: 0px 20px;
+    align-content: center;
+    margin: 20px 0px;
+}
+
+.about-btn {
+    display: flex;
+    gap: 0px 40px;
+}
+
+.about-btn1 {
+    background-color: #fff;
+    color: #FFC265;
+    line-height: 4;
+    border: 1;
+    border-color: #FFC265;
+    padding: 0px 48px;
+    border-radius: 10px;
+    font-size: large;
 }
